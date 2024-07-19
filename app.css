@@ -1,0 +1,45 @@
+//U99350821
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.tour {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tour h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.tour p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.tour button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: #007BFF;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tour button:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .tour {
+    margin: 10px;
+    padding: 10px;
+  }
+}
